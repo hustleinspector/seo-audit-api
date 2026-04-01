@@ -10,7 +10,7 @@
 
 **Live Demo:** [https://hustleinspector.github.io/seo-audit-api/](https://hustleinspector.github.io/seo-audit-api/)
 
-**API Endpoint:** `https://seo-audit.cashclaw.ai` *(development: http://localhost:3850)*
+**API Endpoint:** `https://localhost:3850` *(development: http://localhost:3850)*
 
 **Price:** **$9** per comprehensive SEO audit (most competitors charge $50+)
 
@@ -40,7 +40,7 @@
 
 ### 1. Request an audit (FREE to request, $9 to get results)
 ```bash
-curl -X POST https://seo-audit.cashclaw.ai/api/audit/request \\
+curl -X POST https://localhost:3850/api/audit/request \\
   -H "Content-Type: application/json" \\
   -d '{
     "url": "https://example.com",
@@ -54,7 +54,7 @@ curl -X POST https://seo-audit.cashclaw.ai/api/audit/request \\
 ## 🛠️ API Documentation
 
 ### Base URL
-`https://seo-audit.cashclaw.ai`
+`https://localhost:3850`
 
 ### Endpoints
 
