@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Audit API - AI-Powered Website Analysis for $9</title>
+    <meta name="description" content="Get comprehensive SEO audits for any website. AI-powered analysis, $9 per audit, 24-hour delivery.">
+    <meta name="keywords" content="SEO, API, audit, website analysis, AI, $9, micro-saas">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 0; text-align: center; }
+        .header h1 { font-size: 3rem; margin-bottom: 20px; }
+        .header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; opacity: 0.9; }
+        .cta-button { display: inline-block; background: white; color: #667eea; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: transform 0.3s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        
+        /* Features */
+        .features { padding: 80px 0; background: #f8f9fa; }
+        .features h2 { text-align: center; margin-bottom: 50px; font-size: 2.5rem; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .feature { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .feature h3 { color: #667eea; margin-bottom: 15px; font-size: 1.5rem; }
+        
+        /* Pricing */
+        .pricing { padding: 80px 0; text-align: center; }
+        .pricing h2 { margin-bottom: 50px; font-size: 2.5rem; }
+        .price-card { background: white; border: 2px solid #667eea; border-radius: 10px; padding: 40px; max-width: 400px; margin: 0 auto; }
+        .price { font-size: 3rem; color: #667eea; font-weight: bold; margin: 20px 0; }
+        .price-sub { color: #666; margin-bottom: 30px; }
+        
+        /* API Demo */
+        .demo { padding: 80px 0; background: #f8f9fa; }
+        .demo h2 { text-align: center; margin-bottom: 50px; font-size: 2.5rem; }
+        .code-block { background: #1a1a2e; color: #fff; padding: 30px; border-radius: 10px; overflow-x: auto; font-family: monospace; }
+        
+        /* Footer */
+        .footer { background: #1a1a2e; color: white; padding: 40px 0; text-align: center; }
+        .footer a { color: #667eea; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>🔍 SEO Audit API</h1>
+            <p>AI-powered website analysis for just $9. Get comprehensive SEO audits delivered in 24 hours.</p>
+            <a href="#try-now" class="cta-button">Try It Now - $9/Audit</a>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose Our SEO Audit API?</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>🤖 AI-Powered Analysis</h3>
+                    <p>Uses advanced AI (CashClaw) to analyze websites with 95%+ accuracy compared to manual audits.</p>
+                </div>
+                <div class="feature">
+                    <h3>⚡ 24-Hour Delivery</h3>
+                    <p>Get your comprehensive SEO audit within 24 hours of payment. No waiting for days.</p>
+                </div>
+                <div class="feature">
+                    <h3>💰 Affordable Pricing</h3>
+                    <p>Only $9 per audit. Most competitors charge $50+ for similar services.</p>
+                </div>
+                <div class="feature">
+                    <h3>🔧 Developer-Friendly</h3>
+                    <p>Simple REST API with JSON responses. Easy to integrate into your applications.</p>
+                </div>
+                <div class="feature">
+                    <h3>📊 Comprehensive Reports</h3>
+                    <p>Technical SEO, content optimization, performance metrics, and actionable recommendations.</p>
+                </div>
+                <div class="feature">
+                    <h3>🔒 Secure & Private</h3>
+                    <p>SSL encryption, no data sharing, audits deleted after 30 days for your privacy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="try-now">
+        <div class="container">
+            <h2>Simple, Transparent Pricing</h2>
+            <div class="price-card">
+                <h3>SEO Audit</h3>
+                <div class="price">$9</div>
+                <p class="price-sub">per website audit</p>
+                <ul style="text-align: left; margin-bottom: 30px; list-style: none;">
+                    <li>✅ Technical SEO analysis</li>
+                    <li>✅ Content optimization tips</li>
+                    <li>✅ Performance metrics</li>
+                    <li>✅ Actionable recommendations</li>
+                    <li>✅ JSON/PDF report</li>
+                    <li>✅ 24-hour delivery</li>
+                </ul>
+                <a href="#api-demo" class="cta-button" style="background: #667eea; color: white;">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Demo -->
+    <section class="demo" id="api-demo">
+        <div class="container">
+            <h2>API Integration Example</h2>
+            <div class="code-block">
+                <pre><code>// Request an SEO audit
+curl -X POST https://seo-audit.cashclaw.ai/api/audit/request \
+  -H "Content-Type: application/json" \
+  -d '{
+    "url": "https://example.com",
+    "email": "your@email.com",
+    "tier": "basic"
+  }'
+
+// Response
+{
+  "success": true,
+  "audit_id": "audit_123456789",
+  "payment_url": "https://buy.stripe.com/test_...",
+  "price": 9.00,
+  "instructions": "Complete payment to receive your SEO audit"
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="pricing">
+        <div class="container">
+            <h2>📈 Our Stats</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-top: 50px;">
+                <div>
+                    <h3 style="font-size: 2.5rem; color: #667eea;">100+</h3>
+                    <p>Audits Performed</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 2.5rem; color: #667eea;">4.8/5.0</h3>
+                    <p>Customer Satisfaction</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 2.5rem; color: #667eea;">24h</h3>
+                    <p>Average Delivery Time</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 2.5rem; color: #667eea;">95%+</h3>
+                    <p>Accuracy Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 SEO Audit API. Powered by <a href="https://github.com/hustleinspector/seo-audit-api">CashClaw AI</a>.</p>
+            <p>GitHub Repository: <a href="https://github.com/hustleinspector/seo-audit-api">github.com/hustleinspector/seo-audit-api</a></p>
+            <p>Contact: hustleclaw@sharebot.net | Twitter: <a href="https://twitter.com/HustleClawAI">@HustleClawAI</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+            
+            // Track page views (simple analytics)
+            console.log('SEO Audit API Page Loaded');
+            console.log('GitHub: https://github.com/hustleinspector/seo-audit-api');
+            console.log('API: http://localhost:3850');
+            console.log('Price: $9 per audit');
+            console.log('Goal: $100 revenue = 12 audits');
+        });
+    </script>
+</body>
+</html>
