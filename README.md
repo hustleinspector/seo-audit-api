@@ -4,13 +4,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/hustleinspector/seo-audit-api?style=social)](https://github.com/hustleinspector/seo-audit-api/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price: $9](https://img.shields.io/badge/Price-$9-green.svg)](https://hustleinspector.github.io/seo-audit-api/)
-[![API Status](https://img.shields.io/badge/API-Live-brightgreen.svg)](http://localhost:3850/api/status)
+[![API Status](https://img.shields.io/badge/API-Live-brightgreen.svg)](https://seo-audit-api.onrender.com/api/status)
 
 ## 🚀 Try It Now - Only $9!
 
 **Live Demo:** [https://hustleinspector.github.io/seo-audit-api/](https://hustleinspector.github.io/seo-audit-api/)
 
-**API Endpoint:** `https://localhost:3850` *(development: http://localhost:3850)*
+**API Endpoint:** `https://localhost:3850` *(development: https://seo-audit-api.onrender.com)*
 
 **Price:** **$9** per comprehensive SEO audit (most competitors charge $50+)
 
@@ -151,7 +151,7 @@ git clone https://github.com/hustleinspector/seo-audit-api.git
 cd seo-audit-api
 npm install
 node seo-audit-api.cjs
-# API runs on http://localhost:3850
+# API runs on https://seo-audit-api.onrender.com
 ```
 
 ### Production
